@@ -6,8 +6,15 @@ namespace MyFirstApi.Controllers;
 public class UserController : ControllerBase
 {
     [HttpGet]
+    [ProducesResponseType(typeof(Response), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
     public IActionResult Get()
     {
-        return Ok("Danilo");
+        var response = new Response
+        {
+            Age = 7,
+            Name = "welisson"
+        };
+        return Ok(response);
     }
 }

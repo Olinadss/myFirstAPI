@@ -5,5 +5,9 @@ namespace MyFirstApi.Controllers;
 [ApiController]
 public class UserController : ControllerBase
 {
-
+    [HttpGet]
+    public IActionResult Get()
+    {
+        return Ok("Danilo");
+    }
 }

@@ -63,3 +63,4 @@ C:\Users\dsouza\Documents\Estudos\dotnet\myFirstAPI\obj\Debug\net8.0\refint\MyFi
 C:\Users\dsouza\Documents\Estudos\dotnet\myFirstAPI\obj\Debug\net8.0\MyFirstApi.pdb
 C:\Users\dsouza\Documents\Estudos\dotnet\myFirstAPI\obj\Debug\net8.0\MyFirstApi.genruntimeconfig.cache
 C:\Users\dsouza\Documents\Estudos\dotnet\myFirstAPI\obj\Debug\net8.0\ref\MyFirstApi.dll
+D:\Estudos\dotnet\MyFirstApi\obj\Debug\net8.0\MyFirstApi.sourcelink.json
